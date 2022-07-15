@@ -29,7 +29,7 @@ or you can receive a parameter on this method and send this parameter to the obj
 
 ---
 
-###When to use
+### When to use
 
 - Use the factory method when you're not sure what types of objects your code will need.
 
@@ -47,9 +47,9 @@ or you can receive a parameter on this method and send this parameter to the obj
 
 ---
 
-###Pros and Cons
+### Pros and Cons
 
-###Pros
+### Pros
 
 - Apply Open/Close Principle, your code will be open to extension and close to changes.
 
@@ -58,6 +58,6 @@ or you can receive a parameter on this method and send this parameter to the obj
 
 ---
 
-###Cons
+### Cons
 
 - Can cause a massive usage of subclasses - you need one factory for each object (1:1).
