@@ -56,7 +56,6 @@ or you can receive a parameter on this method and send this parameter to the obj
 
 - Apply Single Responsibility Principle, that means, separate the code that create the object from the code thar use the object.
 
----
 
 ### Cons
 
