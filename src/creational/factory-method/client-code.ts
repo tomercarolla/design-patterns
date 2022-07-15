@@ -23,6 +23,9 @@ const kaya = carFactory.getVehicle('kaya');
 kaya.pickUp('tomer');
 kaya.stop();
 
+//CALL METHOD FROM VEHICLE FACTORY
+// const newCar = carFactory.pickUp('new customer', 'new car');
+
 //RANDOM WITH FACTORY
 
 const customerNames = ['tomer', 'eran', 'asaf', 'lin'];
@@ -34,4 +37,3 @@ for(let i = 0; i < 10; i++) {
     vehicle.stop();
     console.log('---');
 }
-
