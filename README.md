@@ -2,7 +2,7 @@
 
 ## Factory Method
 
-Description
+### Description
 
 - Is a method inside a class (factory)
 
