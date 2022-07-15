@@ -1,5 +1,7 @@
 ## Factory Method
 
+![Factory Method](/src/creational/factory-method/diagram/Factory-Method.png)
+
 ### Description
 
 - Is a method inside a class (factory)
