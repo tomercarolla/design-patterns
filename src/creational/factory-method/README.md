@@ -1,6 +1,6 @@
 ## Factory Method
 
-
+![Factory Method](./diagram/factory-method-diagram.png)
 
 ### Description
 
