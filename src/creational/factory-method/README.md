@@ -2,6 +2,14 @@
 
 ![Factory Method](./diagram/factory-method-diagram.png)
 
+### Purpose
+
+*Define an interface to create an object,
+but let subclasses decide which class to instantiate.
+The Factory Method allows you to defer instantiation to subclasses.*
+
+---
+
 ### Description
 
 - Is a method inside a class (factory)

@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0fca06d-2b36-47f7-92b6-00817a696707" name="Changes" comment="add prettier">
-      <change afterPath="$PROJECT_DIR$/src/creational/factory-method/client-code.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/factory-method/factories/bycicle-factory.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/factory-method/factories/car-factory.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/factory-method/factories/vehicle-factory.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/factory-method/main/random-vehicle-algorithm.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/factory-method/utils/random-numbers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/factory-method/vehicle/bycicle.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/factory-method/vehicle/car.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/factory-method/vehicle/vehicle.model.ts" afterDir="false" />
+    <list default="true" id="b0fca06d-2b36-47f7-92b6-00817a696707" name="Changes" comment="update files">
+      <change afterPath="$PROJECT_DIR$/src/creational/abstract-factory/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/abstract-factory/client-code.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/abstract-factory/customer/customer.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/abstract-factory/customer/enterprise-customer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/abstract-factory/customer/individual-customer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/abstract-factory/diagram/abstract-factory-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/abstract-factory/factories/customer-vehicle-factory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/abstract-factory/factories/enterprise-customer-vehicle-factory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/abstract-factory/factories/individual-customer-vehicle-factory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/abstract-factory/vehicle/enterprise-car.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/abstract-factory/vehicle/individual-car.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/abstract-factory/vehicle/vehicle.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factory-method/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory-method/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,6 +57,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -61,7 +67,23 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/creational/abstract-factory/customer" />
+      <recent name="$PROJECT_DIR$/src/creational/abstract-factory/vehicle" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.factory-method">
+    <configuration name="abstract-method" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="abstract-method" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -72,6 +94,27 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="factory-method" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="factory-method" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.abstract-method" />
+      <item itemvalue="npm.factory-method" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.factory-method" />
+        <item itemvalue="npm.abstract-method" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,7 +124,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657465259459</updated>
-      <workItem from="1657465261063" duration="9437000" />
+      <workItem from="1657465261063" duration="17124000" />
+      <workItem from="1657734483040" duration="13000" />
+      <workItem from="1657861254993" duration="9417000" />
     </task>
     <task id="LOCAL-00001" summary="add eslint">
       <created>1657466718666</created>
@@ -97,7 +142,63 @@
       <option name="project" value="LOCAL" />
       <updated>1657527205644</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add factory method code">
+      <created>1657617163686</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657617163686</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update read me">
+      <created>1657861384305</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657861384305</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update read me">
+      <created>1657861524289</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657861524289</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update factory method example">
+      <created>1657864166772</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657864166772</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update readme design pattern">
+      <created>1657864220572</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657864220572</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update readme factory method">
+      <created>1658130476252</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658130476252</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add factory method diagram">
+      <created>1658130583109</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658130583109</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update files">
+      <created>1658130695805</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658130695805</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,8 +216,16 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add eslint" />
     <MESSAGE value="add prettier" />
-    <option name="LAST_COMMIT_MESSAGE" value="add prettier" />
+    <MESSAGE value="add factory method code" />
+    <MESSAGE value="update read me" />
+    <MESSAGE value="update factory method example" />
+    <MESSAGE value="update readme design pattern" />
+    <MESSAGE value="update readme factory method" />
+    <MESSAGE value="add factory method diagram" />
+    <MESSAGE value="update files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update files" />
   </component>
 </project>
