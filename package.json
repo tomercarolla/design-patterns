@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node src/index.ts"
+    "dev": "node src/index.ts",
+    "factory-method": "ts-node src/creational/factory-method/client-code.ts",
+    "abstract-method": "ts-node src/creational/abstract-factory/client-code.ts"
   },
   "repository": {
     "type": "git",

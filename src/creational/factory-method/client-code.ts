@@ -24,6 +24,7 @@ kaya.pickUp('tomer');
 kaya.stop();
 
 //CALL METHOD FROM VEHICLE FACTORY
+
 // const newCar = carFactory.pickUp('new customer', 'new car');
 
 //RANDOM WITH FACTORY
